@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
+.grid-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 50px;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px;
+  justify-content: center;
+  margin: 30%;
+}
+.grid {
+  border: 5px solid green;
+  font-size: 20px;
+  text-align: center;
+}
