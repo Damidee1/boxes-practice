@@ -2,23 +2,46 @@
   box-sizing: border-box;
   background-color: aquamarine;
 }
+.box {
+  border-radius: 10px;
+}
 .grid-heading {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 50px;
+  font-weight: 70px;
   font-style: italic;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  max-width: 15rem;
 }
 .container {
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
   grid-template-rows: 50px 50px 50px 50px;
-  justify-content: center;
-  margin: 30%;
+  border-radius: 10px;
 }
 .grid {
   border: 5px solid green;
   font-size: 20px;
   text-align: center;
+}
+button {
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  box-shadow: 2px 2px rgb(159, 90, 6);
+  cursor: pointer;
+}
+button:hover {
+  color: aquamarine;
+  background-color: black;
+}
+.displayBar {
+  width: 15.7rem;
+  height: 50px;
+  background-color: rgb(50, 45, 45);
+  color: WHITE;
+  border-radius: 10px 10px 0px 0px;
+  text-align: right;
+  padding: 1rem;
 }
